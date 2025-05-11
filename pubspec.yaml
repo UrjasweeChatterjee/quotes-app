@@ -1,0 +1,23 @@
+name: quotesapp # Required field - all lowercase with underscores if needed
+description: A quotes application with favorites functionality # Recommended
+version: 1.0.0+1 # Recommended format
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add your other dependencies here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # Add assets if needed
+  # assets:
+  #   - images/
