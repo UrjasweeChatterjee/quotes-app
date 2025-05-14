@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../main.dart';
+import '../../main.dart';
 
 class FavoritesScreen extends StatelessWidget {
   final List<Quote> quotes;

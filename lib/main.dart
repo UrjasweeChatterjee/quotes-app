@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'screens/all_quotes_screen.dart';
-import 'screens/favorites_screen.dart';
+import 'presentation/all quotes/all_quotes_screen.dart';
+import 'presentation/favorites/favorites_screen.dart';
 
 void main() {
   runApp(const QuotesApp());
