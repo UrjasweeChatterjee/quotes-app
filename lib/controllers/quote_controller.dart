@@ -1,7 +1,8 @@
-import '../model/quote.dart';
+import '../data/quote_data.dart';
+import '../models/quote.dart';
 
 class QuoteController {
-  final List<Quote> _quotes = [];
+  final List<Quote> _quotes = allQuotes;
 
   List<Quote> get quotes => _quotes;
 
